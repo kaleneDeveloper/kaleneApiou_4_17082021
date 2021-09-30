@@ -659,8 +659,7 @@ a {
     font-weight: 400;
     color: white;
 }
-label,
-a {
+label{
     font-family: "helvetica";
     font-weight: 400;
     color: black;
@@ -718,15 +717,8 @@ q {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-   
 }
-.social .icon-md {
-    color: white !important;
-    background-color: red;
-}
-.bloc-sm {
 
-}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
