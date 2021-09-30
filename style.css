@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -718,8 +718,15 @@ q {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+   
 }
+.social .icon-md {
+    color: white !important;
+    background-color: red;
+}
+.bloc-sm {
 
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -826,7 +833,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
