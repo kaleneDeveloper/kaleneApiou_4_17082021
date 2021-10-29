@@ -304,11 +304,15 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 40px;
+    height: calc(72px / 2);
+    width: calc(386px / 2);
     margin: 0 5px 0 0;
     display: inline;
 }
-
+.image-resize-mode {
+    height: 100px;
+    width: 100px;
+}
 .navbar-brand img[src$="svg"] {
     min-width: 100px;
 }
@@ -537,9 +541,9 @@ button {
 }
 
 a[data-lightbox] {
-    position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -659,11 +663,12 @@ a {
     font-weight: 400;
     color: white;
 }
-label{
+label {
     font-family: "helvetica";
     font-weight: 400;
     color: black;
 }
+
 .text {
     color: black;
 }
@@ -795,7 +800,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #ffffff !important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1043,6 +1048,12 @@ h4 {
     }
 }
 
+.bgc-atomic-tangerine {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.bg-dots-bg {
+    background-color: rgba(0, 0, 0, 0.596);
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1054,4 +1065,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.icon-md {
+    /* visibility: hidden; */
 }
